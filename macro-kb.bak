@@ -1156,9 +1156,9 @@ Text GLabel 3750 1700 2    50   Input ~ 0
 ROW1
 Text GLabel 3750 1800 2    50   Input ~ 0
 ROW2
-Text GLabel 3750 1900 2    50   Input ~ 0
+Text GLabel 3750 3000 2    50   Input ~ 0
 KEY_LEDS
-Text GLabel 3750 2000 2    50   Input ~ 0
+Text GLabel 3750 3100 2    50   Input ~ 0
 UNDERGLOW_LEDS
 Wire Wire Line
 	3750 1300 3550 1300
@@ -1173,7 +1173,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1800 3550 1800
 Wire Wire Line
-	3750 1900 3550 1900
+	3750 3000 3550 3000
 Wire Wire Line
-	3750 2000 3550 2000
+	3750 3100 3550 3100
 $EndSCHEMATC

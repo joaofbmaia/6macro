@@ -338,17 +338,13 @@ F 3 "" H 2450 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 4700 2750 4700
-Text GLabel 2050 5000 2    50   Input ~ 0
-D+
 Text GLabel 2050 4900 2    50   Input ~ 0
+D+
+Text GLabel 2050 5000 2    50   Input ~ 0
 D-
 Wire Wire Line
 	1850 4700 2450 4700
 Connection ~ 2450 4700
-Wire Wire Line
-	1850 4900 2050 4900
-Wire Wire Line
-	1850 5000 2050 5000
 $Comp
 L power:GND #PWR013
 U 1 1 5CEF1637
@@ -1187,4 +1183,8 @@ Wire Wire Line
 	8450 5500 8450 5800
 Wire Wire Line
 	5600 1600 5950 1600
+Wire Wire Line
+	1850 4900 2050 4900
+Wire Wire Line
+	1850 5000 2050 5000
 $EndSCHEMATC
